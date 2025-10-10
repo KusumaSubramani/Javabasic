@@ -7,6 +7,10 @@ public class Exec {
 		Generic_program <String> obj=new Generic_program();
 		obj.setData("hello");
 		System.out.println("the string obj is"+obj.getData());
+		
+		Generic_program <Integer> iobj=new Generic_program();
+		iobj.setData(22);
+		System.out.println("the string obj is"+iobj.getData());
 
 	}
 
